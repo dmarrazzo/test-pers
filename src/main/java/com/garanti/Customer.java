@@ -56,7 +56,8 @@ public class Customer extends VariableEntity implements java.io.Serializable {
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", name=" + name + ", birthYear=" + birthYear + "]";
+		return "Customer [id=" + id + ", name=" + name + ", birthYear=" + birthYear + ", getMappedVariables()="
+				+ getMappedVariables() + "]";
 	}
 	
 }

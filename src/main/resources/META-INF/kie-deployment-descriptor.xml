@@ -12,8 +12,13 @@
             <parameters/>
         </marshalling-strategy>
     </marshalling-strategies>
-    <event-listeners/>
-    <task-event-listeners/>
+    	<event-listeners>
+		<event-listener>
+			<resolver>reflection</resolver>
+			<identifier>utils.TracingListner</identifier>
+			<parameters />
+		</event-listener>
+	</event-listeners><task-event-listeners/>
     <globals/>
     <work-item-handlers/>
     <environment-entries/>
