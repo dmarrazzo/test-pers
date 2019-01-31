@@ -54,4 +54,9 @@ public class Customer extends VariableEntity implements java.io.Serializable {
 		this.birthYear = birthYear;
 	}
 
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", birthYear=" + birthYear + "]";
+	}
+	
 }
